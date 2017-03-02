@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
+        <title>Aparcamiento</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<link href="js/jquerymobile/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquerymobile/jquery.mobile-1.4.5.js"></script> 
+		<script type="text/javascript" src="js/Jq_Migaraje.js"></script>
+		<script type="text/javascript" src="phonegap.js"></script>
+		
+		</head>
+		<body>
+		<div id="MiPagina" data-role="page">
+			<div id="cabecera" data-role="header">
+				<p align="center"> Mi Garaje</p>
+			</div>
+		<div id="contenido" data-role="content">
+			<br>
+				<ul data-role="listview">
+					<li data-role="list-divider">Usted puede:</li>
+					<li><a href="#pag2">Administrar</a></li>
+					<li><a href="">Aparcar</a></li>
+					<li><a href="#listarlibros">Otros</a></li>
+				</ul>
+		</div>
+		<div id="pie" data-role="footer">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="" data-icon="search">Buscar</a></li>
+				<li><a href="#MiPagina" data-icon="home">Volver</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<div id="pag2" data-role="dialog" data-theme="b">
+		<div id="pag_dialogo">
+			<input type="text" id="plantas" placeholder="Plantas">
+			<input type="text" id="filas" placeholder="Filas">
+			<input type="text" id="columnas" placeholder="Columnas">
+			<input type="button" id="guardar_aparcamiento" value="Guardar">
+		</div>
+		<div id="pie1" data-role="footer">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="" data-icon="search">Buscar</a></li>
+				<li><a href="#MiPagina" data-icon="home">Volver</a></li>
+				
+			
+			</ul>
+			
+			</div>
+			</div>
+			</div>
+		
+		</body>
+		</html>
